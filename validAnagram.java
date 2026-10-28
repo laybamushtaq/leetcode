@@ -1,3 +1,9 @@
+/*
+ * Problem: LeetCode #242 - Valid Anagram
+ * Approach: Count character frequencies using a HashMap.
+ * Time Complexity: O(n) average
+ * Space Complexity: O(n)
+ */
 class Solution {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
